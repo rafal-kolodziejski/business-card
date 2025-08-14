@@ -37,12 +37,13 @@ body {
 }
 
 @keyframes example {
-  from {background-color: #e0e1dd;}
-  to {background-color: #778da9;}
+  from {background-color: #e0e1dd;
+  font-size: 14px;}
+  to {background-color: #778da9;
+  font-size: 18px;}
 }
 
 .card:hover {
-  font-size: 18px;
   animation-name: example;
   animation-duration: 4s;
 }
